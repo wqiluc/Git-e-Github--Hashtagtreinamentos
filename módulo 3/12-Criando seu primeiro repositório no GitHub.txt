@@ -1,0 +1,104 @@
+📌 CRIANDO SEU PRIMEIRO REPOSITÓRIO NO GITHUB
+===========================================================
+
+🐈‍⬛ PASSO 1 - ACESSAR O GITHUB
+===========================
+• Entre no site: https://github.com
+• Faça login com sua conta
+• Clique no botão "New" ou "Novo repositório" no canto superior direito
+
+===========================================================
+
+🖊️ PASSO 2 - PREENCHER INFORMAÇÕES DO REPOSITÓRIO
+===========================
+• Nome do repositório:
+  - Escolha um nome curto, descritivo e sem espaços
+• Descrição (opcional):
+  - Explique o que o projeto faz
+• Tipo de repositório:
+  - Público: qualquer pessoa pode ver
+  - Privado: apenas você e colaboradores podem acessar
+
+===========================================================
+
+📝 PASSO 3 - ADICIONAR README.MD
+===========================
+• Marque a opção "Initialize this repository with a README"
+• O README é um arquivo Markdown que serve para:
+  - Apresentar o projeto
+  - Explicar como usar, instalar e contribuir
+• Você poderá editar o README depois, adicionando:
+  - Título
+  - Imagens e logos
+  - Estrutura de pastas
+  - Instruções de instalação
+
+===========================================================
+
+⚖️ PASSO 4 - ADICIONAR LICENSE
+===========================
+• O GitHub oferece opções de licenças para escolher:
+  - MIT License: permissiva, permite qualquer uso, desde que mantenha créditos
+  - Apache License 2.0: permite uso e modificação, inclui cláusula de patentes
+  - GPL v3: copyleft, obriga projetos derivados a serem abertos
+• Clique em "Add a license" e escolha a desejada
+• O arquivo LICENSE será criado automaticamente
+
+===========================================================
+
+🚫 PASSO 5 - ADICIONAR .GITIGNORE
+===========================
+• Clique em "Add .gitignore"
+• Escolha a linguagem ou framework do projeto
+  - Ex: Python, Node, Java, etc.
+• O arquivo .gitignore serve para ignorar arquivos desnecessários:
+  - node_modules/
+  - *.log
+  - .env
+  - __pycache__/
+
+===========================================================
+
+✅ PASSO 6 - CRIAR O REPOSITÓRIO
+===========================
+• Clique em "Create repository"
+• Seu repositório será criado com:
+  - README.md
+  - LICENSE
+  - .gitignore (opcional)
+
+===========================================================
+
+📥 PASSO 7 - CLONAR O REPOSITÓRIO LOCALMENTE
+===========================
+• Copie a URL do repositório (HTTPS ou SSH)
+• No terminal:
+  git clone <url-do-repositório>
+• Exemplo:
+  git clone https://github.com/usuario/meu-primeiro-repo.git
+
+===========================================================
+
+⚡ PASSO 8 - ADICIONAR ARQUIVOS E COMITAR
+===========================
+# Criar arquivo novo
+touch arquivo.txt
+
+# Adicionar ao staging
+git add arquivo.txt
+
+# Comitar alterações
+git commit -m "Primeiro commit - adiciona arquivo.txt"
+
+# Enviar para GitHub
+git push origin main
+
+===========================================================
+
+💡 DICAS EXTRAS
+===========================
+• Sempre use README para explicar seu projeto;
+• Escolha a LICENSE adequada ao seu objetivo;
+• Use .gitignore para evitar arquivos desnecessários no repositório;
+• Faça commits pequenos e com mensagens claras; e
+• Configure branch principal como "main" e crie branches para novas funcionalidades.
