@@ -1,13 +1,13 @@
 📌 COMO CRIAR ATALHOS PARA COMANDOS FREQUENTES NO GIT
 ===========================================================
 
-1️⃣ ALIAS NO GIT
+1️⃣ ALIAS NO GIT 🌋
 ===========================
 • O que é?
-Permite criar atalhos para comandos longos do Git, usando git config.
+Permite criar atalhos para comandos longos do Git, usando git config 🚂.
 
 • Exemplos:
-git config --global alias.st status
+git config --global alias.st status ✅
 git config --global alias.lg "log --oneline --graph --all"
 git config --global alias.ci "commit -am"
 git config --global alias.br "branch -vv"

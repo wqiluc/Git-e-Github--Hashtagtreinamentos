@@ -1,0 +1,53 @@
+📌 BOAS PRÁTICAS PARA COMMITS - COMO ESCREVER MENSAGENS EFETIVAS ✅🔋
+===========================================================
+
+🖊️ POR QUE É IMPORTANTE?🤔
+===========================
+
+• Mensagens de commit claras ajudam a entender o histórico do projeto.
+• Facilita revisão de código, colaboração e manutenção.
+• Permite saber rapidamente o que foi alterado sem abrir arquivos.
+
+===========================================================
+
+✍️ ESTRUTURA DE UMA MENSAGEM DE COMMIT
+===========================
+
+1. **Linha de título (obrigatória)**:
+   - Até 50 caracteres.
+   - Use verbo no imperativo (ex: "Adiciona", "Corrige", "Remove").
+   - Exemplo: 
+     git commit -m "Adiciona página de login"
+
+2. **Linha em branco**  
+   - Separação entre título e corpo.
+
+3. **Corpo da mensagem (opcional, mas recomendado)**:
+   - Explica **o que e por que** da mudança.
+   - Linhas de até 72 caracteres.
+   - Exemplo:
+     ```
+     Implementa autenticação via JWT.
+     Corrige bug que permitia login sem senha.
+     ```
+
+===========================================================
+
+✅ BOAS PRÁTICAS
+===========================
+• Escreva mensagens **curtas, claras e objetivas**.
+• Prefira **verbo no imperativo** na primeira linha.
+• Explique o **porquê** da mudança no corpo, não só o que mudou.
+• Faça commits **pequenos e significativos**.
+• Evite mensagens genéricas como "Atualização" ou "Correção".
+• Use referências de issues se houver:
+  git commit -m "Corrige bug de login #23"
+
+===========================================================
+
+💡 EXEMPLOS DE BONS COMMITS:
+===========================
+- "Adiciona página de cadastro de usuários"
+- "Corrige bug que travava ao salvar formulário"
+- "Remove dependências obsoletas do projeto"
+- "Atualiza README com instruções de instalação"
