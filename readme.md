@@ -109,7 +109,7 @@ git show <hash>           # Detalhes de um commit
 git add <arquivo>         # Adiciona arquivos ao 
 git add .                 # Adiciona todos os arquivos
 git commit -m "Mensagem"  # Commit com mensagem
-git commit -am "Mensagem" # Comita alterações de 
+git commit -am "Mensagem" # Comita alterações 
 git commit --amend         # Edita o último commit
 git branch                # Lista branches locais
 git branch <nome>         # Cria uma nova branch
