@@ -1,0 +1,50 @@
+📌 2. CRIANDO SUA CONTA NO GITHUB
+===========================================================
+
+👤 PASSO 1 - ACESSAR O SITE
+===========================
+• Acesse: https://github.com
+• Clique em "Sign up" (Registrar-se)
+
+===========================================================
+
+✏️ PASSO 2 - PREENCHER INFORMAÇÕES
+===========================
+• Escolha um nome de usuário (único no GitHub)
+• Digite um e-mail válido
+• Crie uma senha segura
+
+===========================================================
+
+✅ PASSO 3 - CONFIGURAÇÕES INICIAIS
+===========================
+• Escolha o plano:
+  - Gratuito (Free)
+  - Pro (opcional)
+• Marque se quer receber novidades por e-mail (opcional)
+
+===========================================================
+
+🔒 PASSO 4 - ATIVAR AUTENTICAÇÃO DE DOIS FATORES (2FA)
+===========================
+• Acesse Configurações (Settings) > Security > Two-factor authentication;
+• Escolha método de autenticação:
+  - App de autenticação (Google Authenticator, Authy); ou
+  - SMS (menos seguro).
+• Siga as instruções para configurar e salvar códigos de backup.
+
+===========================================================
+
+📧 PASSO 5 - CONFIRMAR EMAIL
+===========================
+• Verifique seu e-mail cadastrado 👁️‍🗨️
+• Clique no link de confirmação enviado pelo GitHub✅
+
+===========================================================
+
+💡 DICAS EXTRAS (✚)
+===========================
+• Use um **nome de usuário fácil de lembrar**;
+• Habilite **2FA** para maior segurança;
+• Configure **avatar e perfil** para deixar sua conta mais completa; e
+• Familiarize-se com a interface web antes de criar repositórios
