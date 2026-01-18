@@ -118,7 +118,8 @@ git branch                # Lista branches locais
 git branch <nome>         # Cria uma nova branch
 git checkout <nome>       # Muda para outra branch
 git checkout -b <nome>    # Cria e muda para nova 
-git merge <branch>        # Faz merge de outra branch 
+git merge <branch>        # Faz merge de outra branch
+git merge feature-login
 git branch -d <nome>      # Deleta branch local
 git branch -D <nome>      # Força a deletar branch 
 git push origin --delete <branch>  # Deleta branch 
