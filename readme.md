@@ -86,6 +86,28 @@
 
 <br>
 
+<h1 align="center">Como Baixar e Instalar O Git e O VScode<br>
+<img src="https://skillicons.dev/icons?i=git,vscode" width="60"/></h1>
+
+<p>
+<strong><img src="https://skillicons.dev/icons?i=git" width="14"/> Baixar e instalar o Git:</strong><br>
+• Acesse o site oficial: <a href="https://git-scm.com/">https://git-scm.com/</a><br>
+• Clique em "Download" e escolha seu sistema operacional (Windows, macOS, Linux).<br>
+• Execute o instalador e siga os passos normalmente.<br>
+• Após a instalação, abra o terminal e verifique:<br>
+<code>git --version</code>
+</p>
+
+<p>
+<strong><img src="https://skillicons.dev/icons?i=vscode" width="14"/> Baixar e instalar o VS Code:</strong><br>
+• Acesse o site oficial: <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a><br>
+• Clique em "Download" e escolha seu sistema operacional.<br>
+• Execute o instalador e siga os passos de instalação.<br>
+• Abra o VS Code após a instalação para começar a usar.
+</p>
+
+
+
 <h1 align="center">
   Comandos do Git<br>
   <img src="https://skillicons.dev/icons?i=git" width="25"/>
