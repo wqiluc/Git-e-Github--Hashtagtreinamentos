@@ -1,0 +1,101 @@
+📌 PRIMEIROS PASSOS NO GITHUB
+===========================================================
+
+👤 CRIAR UMA CONTA
+===========================
+• Acesse: "https://github.com"
+• Clique em: "Sign up" e preencha:
+  - Usuário;
+  - Email; e
+  - Senha.
+• Confirme seu email 📧✅
+
+===========================================================
+
+🔒 ATIVAR 2FA (AUTENTICAÇÃO DE DOIS FATORES)
+===========================
+• Acesse Configurações > Security > Two-factor authentication
+• Escolha:
+  - App de autenticação (Google Authenticator, Authy)
+  - SMS (menos seguro)
+• Siga as instruções para gerar códigos de backup
+
+===========================================================
+
+📁 CRIAR UM REPOSITÓRIO
+===========================
+• Acesse: GitHub > New Repository
+• Preencha:
+  - Nome do repositório
+  - Descrição (opcional)
+  - Público ou privado
+• Marque "Initialize this repository with a README" se quiser iniciar com README
+• Opcional: Adicione .gitignore e licença
+• Clique em "Create Repository"
+
+===========================================================
+
+📝 .GITIGNORE
+===========================
+• Serve para ignorar arquivos e pastas que não quer versionar
+• Exemplos:
+  node_modules/
+  *.log
+  .env
+  __pycache__/
+• Pode criar manualmente:
+  touch .gitignore
+• Para verificar arquivos ignorados:
+  git status --ignored
+
+===========================================================
+
+📥 CLONAR UM REPOSITÓRIO
+===========================
+• Copie a URL do repositório (HTTPS ou SSH)
+• Execute no terminal:
+  git clone <url-do-repositorio>
+• Exemplo:
+  git clone https://github.com/usuario/meu-projeto.git
+
+===========================================================
+
+⚡ ADICIONAR, COMITAR E ENVIAR ✚🖊️🔂
+===========================
+# Adicionar arquivos ao staging
+git add <arquivo>
+git add .  # todos os arquivos
+
+# Comitar alterações
+git commit -m "Mensagem do commit"
+
+# Enviar para repositório remoto
+git push origin main
+
+===========================================================
+
+🌿 CRIAR E MUDAR DE BRANCH
+===========================
+git branch <nome-da-branch>  # criar branch
+git checkout <nome-da-branch>  # mudar para branch
+git checkout -b <nome-da-branch>  # criar e mudar
+
+===========================================================
+
+📦 SINCRONIZAR COM REMOTO
+===========================
+git fetch  # baixa mudanças do remoto sem aplicar
+git pull   # baixa e aplica mudanças
+git push   # envia alterações locais
+
+===========================================================
+
+💡 DICAS ADICIONAIS
+===========================
+• Sempre use git status para checar alterações
+• Escreva mensagens de commit claras
+• Configure git config --global user.name e user.email
+• Use .gitignore para não versionar arquivos desnecessários
+• Ative 2FA para maior segurança
+• Experimente criar issues e pull requests para colaborar
+• Explore GitHub Actions para automatizar tarefas

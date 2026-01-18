@@ -1,0 +1,60 @@
+📌 VS CODE E INTEGRAÇÃO COM GITHUB
+===========================================================
+
+💻 O QUE É O Visual Studio code (VS CODE)?
+===========================
+• VS Code (Visual Studio Code) é um **editor de código-fonte gratuito e leve**, da Microsoft.  
+• Suporta várias linguagens (Python, JavaScript, Java, C++, etc.).  
+• Possui **integração nativa com Git**, permitindo versionamento direto pelo editor.  
+• Permite instalar **extensões** para funcionalidades extras (linters, debug, integração com GitHub, entre outros).  
+
+===========================================================
+
+🔗 INTEGRANDO O VS CODE COM GITHUB
+===========================
+1️⃣ INSTALAR VS CODE
+• Baixe em: "https://code.visualstudio.com/"
+• Instale normalmente no seu sistema operacional
+
+2️⃣ INSTALAR O GIT
+• Baixe e instale: https://git-scm.com/
+• Configure seu usuário e email:
+  git config --global user.name "Seu Nome"
+  git config --global user.email "seuemail@exemplo.com"
+
+3️⃣ ABRIR O PROJETO NO VS CODE
+• Abra VS Code
+• Vá em File > Open Folder e selecione sua pasta do projeto
+
+4️⃣ INICIALIZAR REPOSITÓRIO GIT
+• No terminal do VS Code:
+  git init   # inicializa o repositório local
+• Ou abra um projeto já clonado:
+  git clone <url-do-repositório>
+
+5️⃣ EXTENSÕES ÚTEIS
+• GitLens → facilita visualização do histórico e autores de commits
+• GitHub Pull Requests and Issues → permite gerenciar pull requests diretamente do VS Code
+
+6️⃣ FAZER COMMIT E PUSH PELO VS CODE
+• Painel de controle do Git (ícone de ramo na barra lateral)
+• Adicione arquivos ao stage (ícone "+")
+• Escreva mensagem de commit
+• Clique em ✔️ Commit
+• Clique em "Push" para enviar para o GitHub
+
+7️⃣ AUTENTICAÇÃO COM GITHUB
+• Pode ser via:
+  - **Token de acesso pessoal** (PAT) recomendado
+  - **SSH Key** (mais seguro)
+• Para criar PAT: GitHub > Settings > Developer settings > Personal Access Tokens
+• Configure no VS Code para permitir push/pull sem digitar senha toda vez
+
+===========================================================
+
+💡 DICAS EXTRAS
+===========================
+• Use GitLens para rastrear facilmente quem alterou cada linha do código;
+• Configure **atalhos do Git** no VS Code para facilitar commits e push;
+• Sempre sincronize o VS Code com o GitHub usando Pull antes do Push; e
+• Use branches e pull requests diretamente pelo VS Code para colaboração
