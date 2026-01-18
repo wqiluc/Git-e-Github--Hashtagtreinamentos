@@ -1,0 +1,61 @@
+📌 EXPLORANDO O HISTÓRICO NO GIT
+===========================================================
+
+🍒 GIT CHERRY-PICK
+===========================
+• O que é?
+Permite aplicar um commit específico de outra branch na branch atual sem fazer merge completo.
+
+• Como usar:
+git cherry-pick <hash_do_commit>
+
+• Dicas:
+- Use quando quer trazer apenas mudanças selecionadas.
+- Pode gerar conflitos, resolva como em merges.
+
+===========================================================
+
+📝 GIT REFLLOG
+===========================
+• O que é?
+Mostra o histórico de todos os HEADs e referências do repositório, mesmo commits que foram removidos.
+
+• Comandos úteis:
+git reflog # ver histórico de HEAD
+git reset --hard <hash>  # voltar para um estado anterior usando reflog
+
+• Dicas:
+- Excelente para recuperar commits perdidos; e
+- Mantém rastros de todas as mudanças recentes.
+
+===========================================================
+
+🔍 GIT BLAME
+===========================
+• O que é?
+Exibe linha por linha quem fez cada alteração em um arquivo.
+
+• Como usar:
+git blame <arquivo>
+
+• Dicas:
+- Útil para encontrar a autoria de alterações; e
+- Pode ser combinado com opções como -L para linhas específicas.
+
+===========================================================
+
+🧪 GIT BISECT
+===========================
+• O que é?
+Ajuda a encontrar o commit que introduziu um bug usando pesquisa binária.
+
+• Como usar:
+git bisect start
+git bisect bad # commit com bug
+git bisect good <hash> # último commit sem bug
+# O Git vai te guiar, marcando commits até achar o problemático
+git bisect reset # volta ao estado normal
+
+• Dicas:
+- Muito útil para projetos grandes; e
+- Reduz drasticamente o número de commits a verificar.
