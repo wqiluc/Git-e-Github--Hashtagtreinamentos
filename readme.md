@@ -123,6 +123,7 @@ site = "https://www.conventionalcommits.org/pt-br/v1.0.0/"
 git config --global user.name "Seu Nome"
 git config --global user.email "email@exemplo.com"
 git config --list
+git config --global alias.<sua abreviação> comando original # cria atalhos
 git init                  # Inicializa um repositório
 git clone <url>           # Clona um repositório 
 git remote -v             # Lista repositórios remotos
