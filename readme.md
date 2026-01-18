@@ -102,7 +102,7 @@ git remote -v             # Lista repositórios remotos
 git remote add origin <url>
 git remote remove origin <nome>
 git status                # Mostra arquivos 
-git log                   # Mostra histórico de 
+git log                   # Mostra histórico 
 git log --oneline         # Log resumido
 git log --graph --all     # Gráfico de commits
 git show <hash>           # Detalhes de um commit 
