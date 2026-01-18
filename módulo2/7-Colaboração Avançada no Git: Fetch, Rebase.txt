@@ -1,0 +1,42 @@
+📌 7. COLABORAÇÃO AVANÇADA NO GIT
+===========================================================
+
+📥 GIT FETCH:
+===========================
+• O que é?
+Baixa os commits, branches e tags do repositório remoto **sem aplicar** no seu branch atual🔋.
+
+• Como usar:
+git fetch origin 🔄
+
+• Para atualizar uma branch específica:
+git fetch origin nome-da-branch 🔄
+
+• Dicas:
+- Útil para ver mudanças remotas antes de mesclar; e
+- Diferente do `git pull`, que faz fetch + merge.
+
+===========================================================
+
+🔄 GIT REBASE
+===========================
+• O que é?
+Permite “reaplicar” commits da sua branch sobre outra base, criando um histórico linear.
+
+• Como usar:
+git checkout minha-branch
+git rebase main
+
+• Resolver conflitos:
+Durante o rebase, se houver conflito:
+1. Resolva os arquivos.
+2. git add <arquivo>
+3. git rebase --continue
+
+• Cancelar um rebase em andamento ❌:
+git rebase --abort
+
+• Dicas:
+- Mantém o histórico limpo 🧹.
+- Use em commits locais antes de fazer push🫸.
+- Evite rebase em branches compartilhadas (remotas) para não quebrar o histórico dos outros❌.
