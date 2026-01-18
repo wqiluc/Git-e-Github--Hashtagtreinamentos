@@ -2,7 +2,7 @@
   Git e GitHub – Hashtag Treinamentos<br>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="30"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
      width="30"
-     style="background-color: white; color:white; border-radius: 4px; padding: 2px;">
+     style="background-color: white; border-radius: 4px; padding: 2px;">
 
 
 </h1>
