@@ -1,0 +1,50 @@
+📌 COMO CRIAR ATALHOS PARA COMANDOS FREQUENTES NO GIT
+===========================================================
+
+1️⃣ ALIAS NO GIT
+===========================
+• O que é?
+Permite criar atalhos para comandos longos do Git, usando git config.
+
+• Exemplos:
+git config --global alias.st status
+git config --global alias.lg "log --oneline --graph --all"
+git config --global alias.ci "commit -am"
+git config --global alias.br "branch -vv"
+
+• Uso 🤖:
+git st        # equivale a git status
+git lg        # equivale a git log --oneline --graph --all
+git ci "msg"  # equivale a git commit -am "msg"
+git br        # lista branches com detalhes
+
+===========================================================
+
+2️⃣ FUNÇÕES OU SCRIPTS NO TERMINAL
+===========================
+• O que é?
+Funções definidas no ~/.bashrc ou ~/.zshrc para executar comandos frequentes do Git.
+
+• Exemplos:
+
+# Atualizar branch atual
+function gup() {
+    git fetch origin
+    git rebase origin/$(git rev-parse --abbrev-ref HEAD)}
+
+# Limpar arquivos não rastreados
+function gclean() {
+    git clean -fd}
+
+• Como usar:
+- Salve a função no ~/.bashrc ou ~/.zshrc
+- Rode: source ~/.bashrc
+- Depois é só digitar o nome da função: gup ou gclean
+
+===========================================================
+
+3️⃣ DICAS EXTRAS
+===========================
+• Use aliases curtos para comandos que você digita com frequência.
+• Combine com scripts para tarefas mais complexas.
+• Alias e scripts funcionam melhor em conjunto com git status para verificar alterações antes.
