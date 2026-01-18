@@ -93,7 +93,9 @@ Lucas Paguetti Pereira 🧙‍♂️
 
 
 ```bash
-site = "https://www.conventionalcommits.org/pt-br/v1.0.0/" # Ajuda a entender as mensagens de commit 🖊️
+site = "https://www.conventionalcommits.org/pt-br/v1.0.0/" 
+# Ajuda a entender as mensagens de commit 🖊️
+---
 git config --global user.name "Seu Nome"
 git config --global user.email "email@exemplo.com"
 git config --list
