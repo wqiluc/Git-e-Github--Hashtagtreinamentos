@@ -1,10 +1,6 @@
 <h1 align="center">
   Git e GitHub – Hashtag Treinamentos<br>
 <img src="https://skillicons.dev/icons?i=git,github"/>
-
-
-
-
 </h1>
 
 <p align="center">
@@ -87,3 +83,63 @@ Lucas Paguetti Pereira 🧙‍♂️
 <img src="https://img.shields.io/badge/Markdown-FFFFFF?style=for-the-badge&logo=markdown&logoColor=000000">
 
 </div>
+
+<h2 align="center">
+  Comandos do Git<br>
+  <img src="https://skillicons.dev/icons?i=git" width="25"/>
+</h2>
+
+
+```bash
+git config --global user.name "Seu Nome"
+git config --global user.email "email@exemplo.com"
+git config --list
+git init                  # Inicializa um repositório
+git clone <url>           # Clona um repositório 
+git remote -v             # Lista repositórios remotos
+git remote add origin <url>
+git remote remove origin <nome>
+git status                # Mostra arquivos 
+git log                   # Mostra histórico de 
+git log --oneline         # Log resumido
+git log --graph --all     # Gráfico de commits
+git show <hash>           # Detalhes de um commit 
+git add <arquivo>         # Adiciona arquivos ao 
+git add .                 # Adiciona todos os arquivos
+git commit -m "Mensagem"  # Commit com mensagem
+git commit -am "Mensagem" # Comita alterações de 
+git commit --amend         # Edita o último commit
+git branch                # Lista branches locais
+git branch <nome>         # Cria uma nova branch
+git checkout <nome>       # Muda para outra branch
+git checkout -b <nome>    # Cria e muda para nova 
+git merge <branch>        # Faz merge de outra branch 
+git branch -d <nome>      # Deleta branch local
+git branch -D <nome>      # Força a deletar branch 
+git push origin --delete <branch>  # Deleta branch 
+git fetch                 # Baixa commits remotos sem 
+git pull                  # Baixa e faz merge 
+git push                  # Envia commits locais para 
+git push -u origin <branch>  # Define upstream
+git reset --soft <hash>   # Reseta HEAD, mantém 
+git reset --mixed <hash>  # Reseta HEAD, mantém 
+git reset --hard <hash>   # Reseta HEAD e descarta 
+git revert <hash>         # Cria commit que desfaz 
+git rebase <branch>       # Reaplica commits sobre 
+git rebase --continue
+git rebase --abort
+git cherry-pick <hash>    # Aplica commit específico 
+touch .gitignore
+echo "node_modules/" >> .gitignore
+git status --ignored      # Ver arquivos ignorados
+git stash                 # Salva alterações 
+git stash list            # Lista stashes
+git stash apply           # Aplica último stash
+git stash pop             # Aplica e remove stash da 
+git stash clear           # Remove todos os stashes
+git reflog                # Mostra histórico de HEADs e mudanças
+git blame <arquivo>       # Mostra linha por linha quem alterou
+git bisect start
+git bisect good <hash>    # Commit sem bug
+git bisect bad             # Commit com bug
+git bisect reset           # Finaliza bisect
