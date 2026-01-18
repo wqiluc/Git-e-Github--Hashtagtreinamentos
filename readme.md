@@ -84,10 +84,12 @@ Lucas Paguetti Pereira 🧙‍♂️
 
 </div>
 
-<h2 align="center">
+<br>
+
+<h1 align="center">
   Comandos do Git<br>
   <img src="https://skillicons.dev/icons?i=git" width="25"/>
-</h2>
+</h1>
 
 
 ```bash
