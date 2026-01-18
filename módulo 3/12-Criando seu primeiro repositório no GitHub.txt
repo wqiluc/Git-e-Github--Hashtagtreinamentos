@@ -79,7 +79,7 @@
 
 ===========================================================
 
-⚡ PASSO 8 - ADICIONAR ARQUIVOS E COMITAR
+⚡️ PASSO 8 - ADICIONAR ARQUIVOS E COMITAR
 ===========================
 # Criar arquivo novo
 touch arquivo.txt
