@@ -1,0 +1,51 @@
+🎨 Adicionando temas e personalizações básicas ao site estático
+==========================================
+
+## 🌐 Por que usar temas?
+==========================================
+
+Usar um tema pronto ajuda você a:
+- Deixar o site mais profissional rapidamente;
+- Economizar tempo de design; e
+- Manter um visual consistente.
+
+==========================================
+
+## 🛠️ Opção 1 — Usando temas do GitHub Pages
+==========================================
+
+1. Vá até seu repositório no GitHub;
+2. Clique em "Settings" ⚙️;
+3. Vá em "Pages" 🌐; e
+4. Clique em "Browse themes".
+
+Você verá vários temas prontos para escolher.
+
+==========================================
+
+## 🎨 Escolhendo e aplicando um tema
+==========================================
+
+Depois de escolher um tema:
+- Clique no tema desejado;
+- Revise a prévia do site; e
+- Clique em "Select theme".
+
+O GitHub criará automaticamente um arquivo `_config.yml` no seu repositório.
+
+==========================================
+
+## 📄 O que é o arquivo _config.yml?
+==========================================
+
+Esse arquivo controla configurações do seu site, como:
+- Título do site;
+- Descrição do site; e
+- Tema aplicado.
+
+Exemplo básico:
+
+```yaml
+title: Meu Site
+description: Meu primeiro site no GitHub Pages
+theme: jekyll-theme-minimal
