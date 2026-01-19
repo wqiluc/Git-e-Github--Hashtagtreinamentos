@@ -7,9 +7,8 @@
 git checkout -b minha-feature      
 # cria e muda para a branch 'minha-feature'
 
----
 
-2️⃣ FAZER ALTERAÇÕES E COMITAR
+2️⃣ FAZER ALTERAÇÕES E COMITAR 🖊️
 ===========================
 # Faça alterações no código
 git add .                          
@@ -17,34 +16,32 @@ git add .
 git commit -m "Adiciona funcionalidade X"  
  # comita alterações com mensagem clara
 
----
 
 3️⃣ ENVIAR A BRANCH PARA O REPOSITÓRIO REMOTO
 ===========================
 git push -u origin minha-feature   
  publica a branch no GitHub e define upstream
 
----
 
 4️⃣ ABRIR O PULL REQUEST
 ===========================
-1. Acesse o repositório no GitHub.  
-2. Clique em "Compare & pull request" (aparece após enviar a branch).  
+1. Acesse o repositório no GitHub;  
+2. Clique em "Compare & pull request" (aparece após enviar a branch);
 3. Preencha:
-   - Título do PR: resumido e claro (ex: "Adiciona login via JWT")  
-   - Descrição: explique **o que mudou e por quê**  
-4. Escolha a **branch de destino** (geralmente `main` ou `develop`)  
-5. Clique em **Create Pull Request** ✅
+   - Título do PR: resumido e claro (ex: "Adiciona login via JWT"); e 
+   - Descrição: explique **o que mudou e por quê**.
+4. Escolha a **branch de destino** (geralmente `main` ou `develop`); e
+5. Clique em **Create Pull Request**. ✅
 
----
 
 5️⃣ REVISAR UM PULL REQUEST 🖊️
 ===========================
 • Analise as alterações de código no GitHub na aba "Files changed"  
 • Verifique:
-  - Se a lógica está correta
-  - Se não há bugs
-  - Se o código segue boas práticas e padrões do projeto
+  - Se a lógica está correta;
+  - Se não há bugs; e
+  - Se o código segue boas práticas e padrões do projeto.
+
 • Adicione comentários ou sugestões de melhoria clicando no botão "+" ao lado da linha
 • Aprove o PR clicando em "Approve" ou peça mudanças com "Request changes"
 
@@ -58,10 +55,10 @@ git push -u origin minha-feature
   - **Rebase and merge** → aplica commits da branch em cima da branch de destino  
 • Confirme clicando em **Confirm merge**
 
-7️⃣ LIMPAR BRANCHES APÓS O MERGE
+7️⃣ LIMPAR BRANCHES APÓS O MERGE 🧹
 ===========================
-# Deletar branch local
-git branch -d minha-feature
+# Deletar branch local ❌
+git branch -D minha-feature
 
 # Deletar branch remota
 git push origin --delete minha-feature
