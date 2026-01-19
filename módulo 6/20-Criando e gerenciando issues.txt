@@ -1,0 +1,120 @@
+📌 CRIANDO E GERENCIANDO ISSUES NO GITHUB
+===========================================================
+
+🤔 O QUE É UMA ISSUE ❓
+===========================
+• Issue é uma forma de registrar problemas, ideias ou tarefas no GitHub 📝🚨
+• Pode ser usada para:
+  - Reportar bugs; 🐞  
+  - Sugerir melhorias; ✨  
+  - Planejar funcionalidades; 📋  
+  - Fazer perguntas. ❓  
+• Ajuda a organizar o trabalho do projeto e a comunicação entre colaboradores 🤝  
+
+===========================================================
+
+1️⃣ COMO CRIAR UMA ISSUE ❓
+===========================
+• Acesse o repositório no GitHub  
+• Clique na aba:
+  Issue
+• Clique no botão:
+  New issue  
+
+===========================================================
+
+2️⃣ PREENCHENDO A ISSUE CORRETAMENTE
+===========================
+Ao criar a issue, você deve preencher:
+
+📌 TÍTULO (curto e objetivo)  
+Exemplos:
+• “Erro ao fazer login”  
+• “Adicionar modo escuro ao site”  
+
+📌 DESCRIÇÃO (detalhada e clara)  
+Inclua:
+• O que aconteceu  
+• O que você esperava que acontecesse  
+• Passos para reproduzir (se for bug)  
+• Prints ou logs (se possível)  
+
+Exemplo:
+Passos para reproduzir:
+Abrir a página de login;
+Inserir e-mail e senha;
+Clicar em Entrar;
+Resultado esperado: acesso permitido; e
+Resultado atual: erro 500.
+
+===========================================================
+
+3️⃣ USANDO LABELS (ETIQUETAS) NAS ISSUES
+===========================
+Após criar a issue, adicione labels como:
+
+• bug 🐞  
+• enhancement ✨  
+• documentation 📚  
+• help wanted 🆘  
+• good first issue 🚀  
+
+Isso ajuda a organizar e priorizar o trabalho ✅  
+
+===========================================================
+
+4️⃣ ATRIBUINDO RESPONSÁVEIS (ASSIGNEES)
+===========================
+• No lado direito da issue, clique em:
+  Assignees  
+• Selecione quem será responsável por resolver a issue 👤  
+
+===========================================================
+
+5️⃣ RELACIONANDO ISSUES COM PULL REQUESTS
+===========================
+Quando você cria um PR para resolver a issue, escreva na descrição:
+
+Closes #12
+
+Isso faz com que a issue seja **fechada automaticamente** quando o PR for mergeado ✅  
+
+===========================================================
+
+6️⃣ GERENCIANDO ISSUES (FLUXO DE TRABALHO)
+===========================
+Boas práticas:
+
+• Use labels para prioridade:
+  - priority: high 🔴  
+  - priority: medium 🟡  
+  - priority: low 🟢  
+
+• Atualize a issue conforme progresso  
+• Comente quando houver mudanças  
+• Feche a issue quando resolvida:
+  - Clique em “Close issue” ✅  
+
+===========================================================
+
+7️⃣ FILTRANDO E ORGANIZANDO ISSUES
+===========================
+Você pode filtrar por:
+
+• Label (ex: apenas bugs);
+• Responsável (assigned to: @usuario); 
+• Estado (open/closed); e
+• Palavras-chave.  
+
+Exemplo de busca:
+is:issue is:open label:bug
+
+===========================================================
+
+💡 DICAS RÁPIDAS
+===========================
+• Seja claro e objetivo nas descrições;
+• Use labels sempre; 
+• Relacione issues com PRs; e
+• Evite criar issues duplicadas. 
+===========================================================
