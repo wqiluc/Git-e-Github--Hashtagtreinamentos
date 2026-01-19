@@ -1,0 +1,124 @@
+7️⃣ ADICIONANDO, GERENCIANDO COLABORADORES E CONFIGURANDO PERMISSÕES NO GITHUB
+===========================================================
+
+👥 O QUE SÃO COLABORADORES?
+===========================================================
+
+Colaboradores são pessoas que você convida para trabalhar no seu repositório.
+
+Eles podem:
+• Ver o código; 👀  
+• Fazer commits; ✍️  
+• Criar branches; 🌿  
+• Abrir pull requests; 🔁  
+• (Dependendo da permissão) alterar configurações ⚙️  
+(e muito mais ✚)
+
+===========================================================
+
+📍 ONDE ADICIONAR COLABORADORES?
+===========================================================
+
+No GitHub 🐈‍⬛:
+1️⃣ Entre no seu repositório;
+2️⃣ Clique em "Settings"; ⚙️  
+3️⃣ Vá em "Collaborators" (ou "Collaborators & teams"); e 👥  
+4️⃣ Clique em "Add people". ➕  
+
+===========================================================
+
+➕ ADICIONANDO UM COLABORADOR:
+===========================================================
+
+Digite:
+• O usuário do GitHub da pessoa; (@) 
+OU  
+• O e-mail associado à conta dela.
+
+Depois clique em:
+• "Add to repository" ✅  
+
+A pessoa receberá um convite por e-mail 📩
+
+===========================================================
+
+🔑 NÍVEIS DE PERMISSÃO (Roles/Funções):
+===========================================================
+
+Ao adicionar alguém, você pode escolher o nível de acesso:
+
+🔹 Read (Leitura):
+• Pode ver o código✅;  
+• Pode clonar o repositório✅; e  
+• NÃO pode fazer alterações.❌  
+
+🔹 Triage (Triagem):
+• Pode gerenciar issues e pull requests;✅ 
+• NÃO pode fazer commits diretos❌
+
+🔹 Write (Escrita)
+• Pode criar branches  
+• Pode fazer commits  
+• Pode abrir e aprovar pull requests  
+
+🔹 Maintain (Manutenção):
+• Pode gerenciar o repositório;✅ 
+• Pode alterar configurações básicas;✅
+• Pode mesclar (merge) pull requests.✅ 
+
+🔹 Admin (Administrador):
+• Controle total do repositório;✅
+• Pode excluir o repositório;✅  
+• Pode gerenciar colaboradores e secrets.✅
+
+===========================================================
+
+📋 BOAS PRÁTICAS AO GERENCIAR COLABORADORES
+===========================================================
+
+• DÊ O MENOR NÍVEL DE PERMISSÃO NECESSÁRIO 🔐
+
+• Revogue acesso de quem não trabalha mais no projeto ❌  
+• Use branches protegidas para a main 🛡️  
+• Prefira Pull Requests em vez de commits diretos 🔁  
+
+===========================================================
+
+🔒 CONFIGURANDO PERMISSÕES DA BRANCH (IMPORTANTE)
+===========================================================
+
+Você pode proteger a branch principal (main):
+
+1️⃣ Vá em "Settings" ⚙️  
+2️⃣ Clique em "Branches" 🌿  
+3️⃣ Clique em "Add rule" ➕  
+4️⃣ Em "Branch name pattern", coloque: main  
+
+Ative:
+• Require a pull request before merging ✅  
+• Require approvals ✅  
+• Require status checks to pass (CI) ✅  
+
+Isso evita erros e commits diretos na main 🚫
+
+===========================================================
+
+👥 TIMES (TEAMS) — PARA PROJETOS MAIORES 🔨🖥️
+===========================================================
+
+Se sua organização tem muitos membros, você pode:
+
+• Criar times (ex: Backend, Frontend, QA) 🧑🏻‍💻
+• Dar permissões por time, não por pessoa ✅❌ 
+• Facilitar a gestão do acesso 🚀 
+
+===========================================================
+
+🎯 RESUMO RÁPIDO;
+===========================================================
+
+Gerenciar colaboradores no GitHub é:
+✅ Fácil;  
+✅ Seguro; 
+✅ Essencial para trabalho em equipe; e  
+✅ Base para projetos profissionais.
