@@ -1,0 +1,144 @@
+🚀 INTRODUÇÃO AO GITHUB ACTIONS
+===========================================================
+
+🤖 O QUE É GITHUB ACTIONS?
+===========================================================
+GitHub Actions é uma ferramenta de automação dentro do GitHub que permite:
+
+• Automatizar tarefas no seu repositório;
+• Executar testes automaticamente;
+• Fazer deploy de projetos; 
+• Validar código antes do merge; e 
+• Criar fluxos de trabalho (workflows) personalizados.  
+
+Tudo isso acontece diretamente no GitHub, sem precisar de ferramentas externas.
+
+===========================================================
+
+⚙️ COMO FUNCIONA NA PRÁTICA?
+===========================================================
+
+GitHub Actions funciona com base em 3 conceitos principais:
+
+1️⃣ EVENTOS (Triggers) 🎯  
+São ações que “disparam” a automação, por exemplo:
+• push;
+• pull_request; 
+• issues; e
+• schedule (agendado 📆).  
+
+2️⃣ WORKFLOWS (Fluxos de Trabalho) 📄  
+São arquivos YAML que ficam na pasta:
+.github/workflows/
+
+Cada workflow define:
+• Quando rodar; 
+• O que executar; e 
+• Em qual ambiente rodar. 
+
+3️⃣ JOBS E STEPS 🧩  
+Dentro de um workflow você define:
+
+• Jobs → Conjuntos de tarefas 🖋️ 
+• Steps → Comandos individuais dentro de um job 🕹️ 
+
+===========================================================
+
+📁 EXEMPLO SIMPLES DE WORKFLOW
+===========================================================
+
+Arquivo: .github/workflows/ci.yml
+
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "GitHub Actions funcionando!"
+
+Esse workflow:
+• Executa toda vez que alguém der push; 
+• Roda em um servidor Ubuntu; e
+• Apenas imprime uma mensagem no terminal.
+
+===========================================================
+
+🎯 PARA QUE SERVE NA VIDA REAL?
+===========================================================
+
+Você pode usar GitHub Actions para:
+
+• Rodar testes automaticamente; 🧪  
+• Verificar formatação do código; 🧹  
+• Gerar builds automaticamente; 🏗️  
+• Publicar sites e apps; e 🚀  
+• Notificar erros no Slack ou e-mail. 🔔  
+
+===========================================================
+
+# 🔑 Termos Importantes do GitHub Actions
+
+## 📄 Workflow (Fluxo de Trabalho): 
+Arquivo YAML que define uma automação.  
+📁 Local padrão:  
+.github/workflows/
+
+## 🎯 Event (Evento):  
+Gatilho que inicia o workflow, como:
+- `push`
+- `pull_request`
+- `issues`
+- `schedule`
+
+## 🧩 Job: 
+Conjunto de etapas dentro de um workflow.  
+Um workflow pode ter um ou vários jobs.
+
+## 👣 Step (Etapa):  
+Cada comando individual dentro de um job.
+
+## 🖥️ Runner:  
+Máquina onde o workflow é executado.  
+Exemplo comum:
+runs-on: ubuntu-latest
+
+## 📦 Action:  
+Ação pronta e reutilizável dentro de um workflow.  
+Exemplo:
+uses: actions/checkout@v3
+
+## 🔄 Trigger:  
+Outro nome para o evento que inicia o workflow.
+
+## 🧭 YAML:  
+Formato do arquivo usado para escrever workflows no GitHub Actions.
+
+## 🔐 Secrets:  
+Variáveis secretas armazenadas no GitHub (tokens, chaves de API, senhas).
+
+## 🔁 Re-run:  
+Opção para executar novamente um workflow já finalizado.
+
+## 📊 Logs:  
+Registro detalhado de tudo o que aconteceu durante a execução do workflow.
+
+## 🔗 Dependencies (Dependências):  
+Pacotes ou bibliotecas instalados durante o workflow.
+
+## ⏱️ Schedule (Cron):  
+Execução automática em horários definidos.
+
+===========================================================
+💡 RESUMO RÁPIDO:
+===========================================================
+
+GitHub Actions é:
+✅ Automático; 
+✅ Integrado ao GitHub;  
+✅ Poderoso; 
+✅ Personalizável; e
+✅ Muito usado no mercado.
