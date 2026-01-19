@@ -123,7 +123,7 @@ site = "https://www.conventionalcommits.org/pt-br/v1.0.0/"
 
 ---
 
-git --version (ou v) # Verifica a versão do seu git na máquina do usuário 💻
+git --version (ou v) # Verifica a versão do git na máquina do usuário 💻
 git config --global user.name "Seu Nome"
 git config --global user.email "email@exemplo.com"
 git config --global alias.< sua abreviaçao > funcao original
