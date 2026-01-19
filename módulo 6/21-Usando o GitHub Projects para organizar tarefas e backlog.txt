@@ -1,0 +1,129 @@
+📌 21 - USANDO GITHUB PROJECTS PARA ORGANIZAR TAREFAS E BACKLOG
+===========================================================
+
+🚀 O QUE É O GITHUB PROJECTS?
+===========================
+
+• É uma ferramenta do GitHub para gerenciar tarefas como um quadro Kanban 📊  
+
+• Funciona como um “Trello dentro do GitHub”  
+
+• Permite organizar Issues e Pull Requests em colunas  
+
+• Ajuda a visualizar o progresso do projeto em tempo real 🚀  
+
+===========================================================
+
+1️⃣ COMO CRIAR UM PROJECT NO GITHUB
+===========================
+• Vá até o repositório no GitHub  
+• Clique na aba:
+  Projects  
+
+• Clique em:
+  New project  
+
+• Escolha o modelo:
+  - Board (quadro Kanban) ✅ recomendado  
+  - Table (tabela estilo planilha)  
+  - Roadmap (linha do tempo)  
+
+• Dê um nome ao projeto, por exemplo:
+  “Backlog do Projeto”  
+
+===========================================================
+
+2️⃣ ESTRUTURA PADRÃO DO QUADRO (KANBAN)
+===========================
+O GitHub já sugere colunas como:
+
+📌 Todo (A fazer) ❌  
+• Tarefas planejadas  
+• Bugs ainda não resolvidos  
+• Ideias futuras  
+
+📌 In Progress (Em andamento) ⚠️ 
+• Tarefas que estão sendo trabalhadas agora  
+
+📌 Done (Concluído) ✅
+• Issues e PRs já finalizados  
+
+Você pode adicionar novas colunas, como:
+• Backlog;  
+• Review; ou
+• Blocked. (bloqueado)  
+
+===========================================================
+
+3️⃣ ADICIONANDO ISSUES AO PROJECT
+===========================
+Você pode adicionar tarefas de duas formas:
+
+🔹 Forma 1 – direto no Project  
+• Clique em:
+  + Add item  
+• Digite o título da tarefa  
+
+🔹 Forma 2 – usando Issues existentes  
+• Abra uma Issue no repositório; 
+• No lado direito, clique em:
+  Projects; e
+• Selecione o projeto e adicione ao quadro.
+
+===========================================================
+
+4️⃣ MOVENDO TAREFAS ENTRE COLUNAS
+===========================
+• Arraste e solte os cartões entre as colunas 🖱️  
+Exemplo de fluxo:
+Todo → In Progress → Done  
+
+Isso ajuda a visualizar:
+• O que falta fazer❌;  
+• O que está sendo feito⚠️; e 
+• O que já foi concluído✅. 
+
+===========================================================
+
+5️⃣ USANDO PROJECTS COMO BACKLOG
+===========================
+Você pode criar uma coluna:
+Backlog  
+
+Nela, coloque:
+• Ideias futuras💡
+• Melhorias planejadas✅
+• Bugs sem prioridade imediata🐞 
+
+Depois, conforme o projeto avança, mova para:
+Backlog → Todo → In Progress → Done 
+
+===========================================================
+
+6️⃣ FILTROS E ORGANIZAÇÃO
+===========================
+Você pode filtrar tarefas por:
+
+• Label (ex: bug, enhancement)  
+• Responsável (assignee)  
+• Status (todo, in progress, done)  
+• Prioridade (se você usar labels como high/medium/low)  
+
+===========================================================
+
+7️⃣ RELAÇÃO ENTRE ISSUES, PRs E PROJECTS ⚖️
+===========================
+• Issues representam tarefas 📝  
+• Pull Requests representam soluções 🔧  
+• Projects organizam tudo visualmente 📊  
+
+Quando um PR fecha uma Issue, o cartão pode ser movido automaticamente para Done ✅  
+
+===========================================================
+
+💡 BOAS PRÁTICAS COM GITHUB PROJECTS
+===========================
+• Use labels para prioridade;
+• Atualize o quadro regularmente;
+• Evite muitas colunas para não confundir; e  
+• Revise o backlog semanalmente.
