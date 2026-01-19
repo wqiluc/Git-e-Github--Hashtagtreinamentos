@@ -1,0 +1,88 @@
+📌 COMO IDENTIFICAR CONFLITOS DE MERGE
+===========================================================
+
+🔎 O QUE É UM CONFLITO DE MERGE?
+===========================
+• Um conflito acontece quando duas branches modificam a mesma linha (ou parte) do mesmo arquivo  
+• O Git não consegue decidir automaticamente qual versão manter  
+• Nesses casos, ele **pausa o merge** e pede sua intervenção manual ⚠️  
+
+===========================================================
+
+1️⃣ QUANDO O CONFLITO ACONTECE 🤔
+===========================
+O conflito geralmente aparece quando você executa:
+git merge outra-branch
+
+E o Git responde algo como:
+CONFLICT (content): Merge conflict in arquivo.txt
+
+Isso significa que:
+• O merge NÃO foi concluído ❌  
+• Você precisa resolver o conflito antes de continuar ✅🙅‍♂️  
+
+===========================================================
+
+2️⃣ COMO SABER QUE HÁ CONFLITO❓ (GIT STATUS)
+===========================
+Após tentar o merge, execute:
+git status
+
+Você verá algo como:
+Unmerged paths:
+  both modified: arquivo.txt
+
+Isso indica que:
+• O arquivo está em conflito ⚠️
+• Você precisa abri-lo e corrigir manualmente 🚨 
+
+===========================================================
+
+3️⃣ COMO O GIT MARCA O CONFLITO NO ARQUIVO
+===========================
+Ao abrir o arquivo com conflito, você verá algo assim:
+
+Código da sua branch atual
+
+Explicação:
+• <<<<<<< HEAD → versão da branch onde você está  
+• ======= → separa as duas versões  
+• >>>>>>> outra-branch → versão da branch que você tentou mesclar  
+
+===========================================================
+
+4️⃣ COMO IDENTIFICAR VISUALMENTE NO VS CODE
+===========================
+No VS Code, conflitos aparecem:
+• Com destaque colorido no arquivo 🟥  
+• Com botões como:
+  - Accept Current Change (aceitar sua versão)
+  - Accept Incoming Change (aceitar a outra versão)
+  - Accept Both (manter ambas)
+  - Compare Changes (comparar diferenças)
+
+===========================================================
+
+5️⃣ COMO CONFIRMAR TODOS OS CONFLITOS DO PROJETO
+===========================
+Para listar todos os arquivos em conflito:
+git diff --name-only --diff-filter=U
+
+Isso mostra apenas os arquivos que ainda estão com conflito 🚨  
+
+===========================================================
+
+6️⃣ SINAIS COMUNS DE CONFLITO
+===========================
+• O merge para no meio do processo;  
+• git status mostra “both modified";
+• Arquivos contêm <<<<<<<, ======= e >>>>>>>  
+• O Git impede novo commit até resolver tudo❌
+
+===========================================================
+
+💡 DICA RÁPIDA ⚡️:
+===========================
+• Sempre faça git pull ANTES de começar a trabalhar;
+• Evite editar as mesmas linhas que outros colaboradores ❌; e
+• Faça merges frequentes para reduzir conflitos.
