@@ -113,6 +113,8 @@
   <img src="https://skillicons.dev/icons?i=git" width="25"/>
 </h1>
 
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=dark)](https://conventionalcommits.org)
+
 
 ```bash
 site = "https://www.conventionalcommits.org/pt-br/v1.0.0/" 
