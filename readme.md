@@ -20,9 +20,8 @@
 <h2 align="center">🎯 Objetivo do Repositório: </h2>
 
 <p align="center">
-  Este repositório tem como objetivo documentar minha jornada de aprendizado em Git e GitHub pela Hashtag Treinamentos,  
-  reunindo conceitos fundamentais, comandos essenciais e boas práticas ao usar Git e Github. 
-  Aqui também registrei anotações e comandos (a maioria), pra servir de 'mapa' pra quem quiser entender e se aprofundar mais nas funcionalidades dessas tecnologias.✅
+Este repositório tem como objetivo documentar minha jornada de aprendizado em Git e GitHub, desenvolvida por meio da Hashtag Treinamentos.
+Aqui estão reunidos conceitos fundamentais, comandos essenciais e boas práticas, além de anotações e exemplos práticos que servem como um guia de referência para quem deseja compreender e se aprofundar no uso dessas tecnologias. ✅ 
 </p>
 
 
