@@ -26,6 +26,57 @@
   Aqui também registro anotações, exercícios e aplicações reais de controle de versão e colaboração em projetos. ✅
 </p>
 
+
+<h2 align="center">📁 Estrutura do Projeto: <br>
+<img src="https://img.shields.io/badge/-Arquitetura-111827?style=flat-square&logo=instructure&logoColor=white" 
+     style="vertical-align:middle; margin-left:5px;"/></h2>
+
+<pre>
+Git-Github-Hashtagtreinamentos<img src="https://skillicons.dev/icons?i=git,github" width="25">/
+├── .github<img src="https://skillicons.dev/icons?i=github" width="15">/
+│   ├── _config.yml<img src="https://skillicons.dev/icons?i=githubactions" width="15"/>
+│   ├── main.yml<img src="https://skillicons.dev/icons?i=githubactions" width="15"/>
+│   ├── bug_report.md <img src="https://img.shields.io/badge/Markdown-FFFFFF?style=for-the-badge&logo=markdown&logoColor=000000" height="15"/>
+│   ├── codeowners.md <img src="https://img.shields.io/badge/Markdown-FFFFFF?style=for-the-badge&logo=markdown&logoColor=000000" height="15"/>
+│   ├── feature_request.md <img src="https://img.shields.io/badge/Markdown-FFFFFF?style=for-the-badge&logo=markdown&logoColor=000000" height="15"/>
+│   ├── pull_request_template.md <img src="https://img.shields.io/badge/Markdown-FFFFFF?style=for-the-badge&logo=markdown&logoColor=000000" height="15"/>
+│   └── workflows<img src="https://skillicons.dev/icons?i=githubactions" width="15"/>/
+│       └── cl.yml<img src="https://skillicons.dev/icons?i=githubactions" width="15"/>
+│
+├── img/
+│   ├── Hashtag_logo.jpeg <img src="https://img.shields.io/badge/Images-JPEG-orange?style=for-the-badge&logo=google&logoColor=white" height="15"/>
+│   └── Hashtag_logo2.jpeg <img src="https://img.shields.io/badge/Images-JPEG-orange?style=for-the-badge&logo=google&logoColor=white" height="15"/>
+│
+├── license/
+│   └── LICENSE_MIT📜
+│
+├── modulo-1/
+│   └── 1.txt
+│
+├── modulo-2/
+│   ├── 2.pdf
+│   └── 2-9.txt
+│
+├── modulo-3/
+│   └── 10-14.txt
+│
+├── modulo-4/
+│   └── 15.txt
+│
+├── modulo-5/
+│   └── 16-19.txt
+│
+├── modulo-6/
+│   ├── 20-29.txt
+│   ├── index.html<img src="https://skillicons.dev/icons?i=html" width="15"/>
+│   ├── index.js<img src="https://skillicons.dev/icons?i=js" width="15"/>
+│   ├── styles.css<img src="https://skillicons.dev/icons?i=css" width="15"/>
+│   └── package.json<img src="https://skillicons.dev/icons?i=nodejs" width="15"/>
+│
+├── .gitignore<img src="https://skillicons.dev/icons?i=git" width="15"/>
+└── readme.md <img src="https://img.shields.io/badge/Markdown-FFFFFF?style=for-the-badge&logo=markdown&logoColor=000000" height="15"/>
+</pre>
+
 <h2 align="center">👨🏻‍💻 Autor deste Repositório: </h2>
 
 <div align="center">
