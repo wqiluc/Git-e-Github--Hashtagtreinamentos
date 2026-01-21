@@ -27,7 +27,7 @@
 </p>
 
 
-<h2 align="center">📁 Estrutura do Projeto: <br>
+<h2 align="center">🏛️ Arquitetura do Projeto: <br>
 <img src="https://img.shields.io/badge/-Arquitetura-111827?style=flat-square&logo=instructure&logoColor=white" 
      style="vertical-align:middle; margin-left:5px;"/></h2>
 
